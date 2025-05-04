@@ -13,12 +13,8 @@ namespace TaskManagementSystem.Common.Utility
 
         #region Variables
         public static string ErrorMessage = "Something Went Wrong. Please Contact Administrator!";
-        public static string ApplicationLongTitle = "St Anthony's Rehabilitation and Nursing Center LLC";
-        public static string ApplicationTitle = "SANRC";
         public static string ForiegnKeyErrorMessage = "Child Record Exists!";
         public static string ConnectionString = "";
-        public static string TextLine_Token = "sannz2pdsQN3PyG8byMf";
-        public static string TextLine_Api = "https://application.textline.com/api/conversations.json";
         public static string Country_Code = "";
         public static string DateFormat = "MM/dd/yyyy";
         public static string DateTimeFormat = "MM/dd/yyyy hh:mm tt";

@@ -1,0 +1,120 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+    Layout = "_LoginLayout";
+}
+<style>
+    .select2-results__option{
+        z-index:99999 !important;
+    }
+        /* Style the selected option(s) in the input */
+        .select2-container--default .select2-selection--multiple .select2-selection__choice
+
+    {
+        background-color: #2962FF !important;
+        border: 1px solid #2962FF !important;
+        color: #fff !important;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+        color: #fff !important;
+    }
+
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+            background-color: #1e40af !important;
+            color: #fff !important;
+        }
+
+    /* Style the options in the dropdown list */
+    .select2-results__option {
+        /* You can add general styles for all options here */
+    }
+
+    .select2-results__option--highlighted {
+        background-color: #1e40af !important;
+        color: #fff !important;
+    }
+
+    .select2-results__option[aria-selected="true"] {
+        background-color: #2962FF !important;
+        color: #fff !important;
+    }
+    
+</style>
+<div class="card-body">
+    
+                  
+        
+                    <div class="modal-header">
+                              @(Model.HiteshTaskProjectModel.IsEdit ? "Edit Project Details" : "Add Project Details")
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+        
+    
+
+    <br />
+    <form id="projectdata" novalidate> 
+        <input type="hidden" asp-for="@Model.HiteshTaskProjectModel.Id" />
+       
+
+        <div class="form-group row">
+        <label for="title" class="col-sm-3 text-right control-label col-form-label">Title</label>
+        <div class="col-sm-9">
+                <input type="text" id="title" class="form-control" placeholder="Title Here " asp-for="@Model.HiteshTaskProjectModel.Title" required>
+        </div>
+            <span style="margin-left:190px;" asp-validation-for="@Model.HiteshTaskProjectModel.Title" class="text-danger"></span>
+    </div>
+    <div class="form-group row">
+        <label for="txtarea" class="col-sm-3 text-right control-label col-form-label">Description</label>
+        <div class="col-sm-9">
+                @Html.TextAreaFor(x => x.HiteshTaskProjectModel.Description, new { @class = "form-control form-control-sm",  @autocomplete = "off" })
+        </div>
+            <span style="margin-left:190px;" asp-validation-for="@Model.HiteshTaskProjectModel.Description" class="text-danger"></span>
+    </div>
+
+        <div class="form-group row">
+            <label for="txtarea" class="col-sm-3 text-right control-label col-form-label">Assign To</label>
+            <div class="col-sm-9">
+                <select class="form-control select2" multiple="multiple" id="userSelect" asp-for="@Model.HiteshTaskProjectModel.UserIds"  asp-items="Model.HiteshTaskProjectModel.UserMasterList" required>
+                    <option> --Select User--</option>
+                </select>
+
+            </div>
+            <span style="margin-left:190px;" asp-validation-for="@Model.HiteshTaskProjectModel.UserIds" class="text-danger"></span>
+        </div>
+      
+        @{
+            if (Model.HiteshTaskProjectModel.Id > 0)
+            {
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary w-20" onclick="TaskManagementSystem.Project.UpdateProject()">Update</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+            }
+            else
+            {
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary w-20" onclick="TaskManagementSystem.Project.SaveProject()">Add</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+            }
+        }
+
+    </form>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+                    $(document).ready(function() {
+            $('.select2').select2({
+                placeholder: "Select User",
+                allowClear: true ,
+                 width: '100%'
+            });
+        });
+    </script>
+}

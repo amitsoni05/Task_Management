@@ -1,0 +1,227 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+@using Newtonsoft.Json
+@{
+    Layout = "_LoginLayout";
+}
+<style>
+   
+
+    /* Style the selected option(s) in the input */
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        background-color: #2962FF !important;
+        border: 1px solid #2962FF !important;
+        color: #fff !important;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+        color: #fff !important;
+    }
+
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+            background-color: #1e40af !important;
+            color: #fff !important;
+        }
+
+    /* Style the options in the dropdown list */
+    .select2-results__option {
+        /* You can add general styles for all options here */
+    }
+
+    .select2-results__option--highlighted {
+        background-color: #1e40af !important;
+        color: #fff !important;
+    }
+
+    .select2-results__option[aria-selected="true"] {
+        background-color: #2962FF !important;
+        color: #fff !important;
+    }
+    
+</style>
+<div class="card-body">
+    <div class="modal-header">
+        <h5 class="modal-title">
+            @(Model.HiteshTaskAssignTaskModel.IsEdit ? "Edit Task Details" : "Add Task Details")
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <form id="Taskdata" novalidate enctype="multipart/form-data" class="mt-3">
+        <input type="hidden" asp-for="HiteshTaskAssignTaskModel.Id" id="assignid" />
+
+        <!-- Select Project -->
+        <div class="mb-3 row">
+            <label for="projectSelect" class="col-sm-3 col-form-label text-end">Select Project</label>
+            <div class="col-sm-9">
+                <select id="projectSelect" asp-for="HiteshTaskAssignTaskModel.ProjectId" class="form-select" required>
+                    <option value="">-- Select Project --</option>
+                    @foreach (var item in Model.ProjectList)
+                    {
+                        <option value="@item.Value">@item.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="HiteshTaskAssignTaskModel.ProjectId" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Select Users -->
+        <div class="mb-3 row">
+            <label for="userSelect" class="col-sm-3 col-form-label text-end">Select Users</label>
+            <div class="col-sm-9">
+                <select id="userSelect" multiple class="form-select select2" asp-for="HiteshTaskAssignTaskModel.UserIds" asp-items="Model.HiteshTaskAssignTaskModel.UserMasterList" required>
+                    <option value="">-- Select User --</option>
+                </select>
+                <span asp-validation-for="HiteshTaskAssignTaskModel.UserIds" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Select Priority -->
+        <div class="mb-3 row">
+            <label for="prioritySelect" class="col-sm-3 col-form-label text-end">Select Priority</label>
+            <div class="col-sm-9">
+                <select id="prioritySelect" asp-for="HiteshTaskAssignTaskModel.Priority" class="form-select" required>
+                    <option value="">-- Select Priority --</option>
+                    <option value="1">Low</option>
+                    <option value="2">Medium</option>
+                    <option value="3">High</option>
+                </select>
+                <span asp-validation-for="HiteshTaskAssignTaskModel.Priority" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Title -->
+        <div class="mb-3 row">
+            <label for="title" class="col-sm-3 col-form-label text-end">Title</label>
+            <div class="col-sm-9">
+                <input type="text" id="title" class="form-control" placeholder="Title Here" asp-for="HiteshTaskAssignTaskModel.Title" required />
+                <span asp-validation-for="HiteshTaskAssignTaskModel.Title" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Description -->
+        <div class="mb-3 row">
+            <label for="txtarea" class="col-sm-3 col-form-label text-end">Description</label>
+            <div class="col-sm-9">
+                <textarea id="txtarea" class="form-control" placeholder="Description here" asp-for="HiteshTaskAssignTaskModel.Description" required></textarea>
+                <span asp-validation-for="HiteshTaskAssignTaskModel.Description" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Deadline -->
+        <div class="mb-3 row">
+            <label for="deadline" class="col-sm-3 col-form-label text-end">Deadline</label>
+            <div class="col-sm-9">
+                <input type="date" id="deadline" class="form-control" asp-for="HiteshTaskAssignTaskModel.DeadLine" value="@DateTime.Now.ToString("yyyy-MM-dd")" required />
+                <span asp-validation-for="HiteshTaskAssignTaskModel.DeadLine" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- File Upload Section -->
+        <hr />
+        <div class="mb-3 row">
+            <label for="FileSelect" class="col-sm-3 col-form-label text-end">Document Type</label>
+            <div class="col-sm-6">
+                <select id="FileSelect" class="form-select" required>
+                    <option value="">-- Select Document Type --</option>
+                    <option value="1">Image</option>
+                    <option value="2">PDF</option>
+                    <option value="3">Excel</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label for="files" class="col-sm-3 col-form-label text-end">Choose File</label>
+            <div class="col-sm-6">
+                <input type="file" id="files" class="form-control" accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg,.jpeg,.gif" />
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary" onclick="TaskManagementSystem.Task.uploadFile()">Upload File</button>
+            </div>
+        </div>
+
+        <!-- File Table -->
+        <div class="table-responsive mt-4">
+            <table class="table table-bordered" id="fileTable">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width: 5%;">Id</th>
+                        <th style="width: 25%;">Document Type</th>
+                        <th style="width: 50%;">File Name</th>
+                        <th style="width: 20%;">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="no-data">
+                        <td colspan="4" class="text-center">No Data Available</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="modal-footer mt-4">
+            <button type="button" class="btn btn-primary w-25" onclick="TaskManagementSystem.Task.SaveTask()">
+                @(Model.HiteshTaskAssignTaskModel.Id > 0 ? "Update" : "Add")
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+  
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    }
+} 
+  <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+<script type="text/javascript">
+    window.existingFiles = @Html.Raw(JsonConvert.SerializeObject(Model.HiteshTaskAssignTaskModel.AllDocumentsList));
+    console.log("Injected existing files:", window.existingFiles);
+</script>
+
+
+  
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Initialize select2 for multi-select users
+            $('.select2').select2({
+                placeholder: "Select User",
+                allowClear: true,
+                width: '100%'
+
+            });
+
+            // Project dropdown change event
+            $("#projectSelect").change(function () {
+                var PId = $(this).val();
+
+                // Clear and reset user dropdown
+                $("#userSelect").empty().append('<option value="">Select User</option>');
+
+                if (PId) {
+                    $.ajax({
+                        url: '@Url.Action("GetUSer", "Task")',
+                        type: 'POST',
+                        data: { PId: PId },
+                        dataType: 'json',
+                        success: function (response) {
+                            if (response.length > 0) {
+                                $.each(response, function (i, user) {
+                               $("#userSelect").append('<option value="' + user.value + '">' + user.text + '</option>');
+
+                                    });
+                            } else {
+                                alert("No User found for this Project.");
+                            }
+                        }
+                    });
+                }
+            });
+
+       
+        });
+    </script>
+

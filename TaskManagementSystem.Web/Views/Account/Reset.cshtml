@@ -1,0 +1,168 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+    Layout = "_LoginLayout";
+}
+
+<body>
+    <div class="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+     
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Login box.scss -->
+        <!-- ============================================================== -->
+        
+        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="background:url(../../assets/images/big/auth-bg.jpg) no-repeat center center;">
+            <div class="auth-box">
+                <div>
+                    <div class="logo">
+                        <span class="db"><img src="~/assets/images/logo-icon.png" alt="logo" /></span>
+                        <h5 class="font-medium mb-3">Recover Password</h5>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <span style="color:blue; font-size:15px; font-weight:bold;">@Model.HiteshTaskUserMasterModel.Email</span>
+                    </div>
+
+                    <!-- Form -->
+                    <div class="row">
+                        <div class="col-12">
+                            <form class="form-horizontal mt-3" id="Reset" >
+                                <input type="hidden" asp-for="@Model.HiteshTaskUserMasterModel.Id" id="userid" />
+                                <input type="hidden" asp-for="@Model.HiteshTaskUserMasterModel.Email" />
+                                <div class="form-group">
+                                    <label for="newpassword">New Password</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="toggle-newpassword-btn">
+                                                <i class="fa fa-eye" id="newtoggleIcon"></i>
+                                            </span>
+                                        </div>
+
+                                        <input type="password" class="form-control" id="newpassword" asp-for="@Model.HiteshTaskUserMasterModel.newpassword" placeholder="New Password here" required>
+
+                                    </div>
+
+                                    <span asp-validation-for="@Model.HiteshTaskUserMasterModel.newpassword" class="text-danger"></span>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="conpassword">Confirm Password</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="toggle-conpassword-btn">
+                                                <i class="fa fa-eye" id="contoggleIcon"></i>
+                                            </span>
+                                        </div>
+
+                                        <input type="password" class="form-control" id="conpassword" asp-for="@Model.HiteshTaskUserMasterModel.confirmpassword" placeholder="Confirm Password here" required>
+
+                                    </div>
+
+                                    <span asp-validation-for="@Model.HiteshTaskUserMasterModel.confirmpassword" class="text-danger"></span>
+                                </div>
+                                <div class="form-group text-center">
+                                    <div class="col-xs-12 pb-3">
+                                        <button class="btn btn-block btn-lg btn-info" onclick="TaskManagementSystem.Account.Reset()">RESET</button>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a href="@Url.Content("~/Account/Login")" class="btn btn-secondary btn-lg btn-block" tabindex="4">Back to Login</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Login box.scss -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper scss in scafholding.scss -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper scss in scafholding.scss -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Right Sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Right Sidebar -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- All Required js -->
+    <!-- ============================================================== -->
+    @* <script src="../../assets/libs/jquery/dist/jquery.min.js"></script> *@
+    @* <!-- Bootstrap tether Core JavaScript --> *@
+    @* <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script> *@
+    @* <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script> *@
+    @* <!-- ============================================================== --> *@
+    @* <!-- This page plugin js --> *@
+    @* <!-- ============================================================== --> *@
+    @* <script> *@
+    @*     $('[data-toggle="tooltip"]').tooltip(); *@
+    @*     $(".preloader").fadeOut(); *@
+    @* </script> *@
+</body>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}
+
+
+<script src="~/js/themes/jquery.min.js" asp-append-version="true"></script>
+<script type="text/javascript">
+
+        $(document).ready(function() {
+
+     $("#toggle-newpassword-btn").on("click", function () {
+
+        var newpsw=$("#newpassword");
+         var newtoggleIcon = $("#newtoggleIcon");
+
+         if (newpsw.attr("type") === "password") {
+            newpsw.attr("type", "text");
+            newtoggleIcon.removeClass("fa-eye").addClass("fa-eye-slash");
+        } else {
+            newpsw.attr("type", "password");
+            newtoggleIcon.removeClass("fa-eye-slash").addClass("fa-eye");
+        }
+
+    });
+
+      $("#toggle-conpassword-btn").on("click", function () {
+
+        var newpsw=$("#conpassword");
+         var newtoggleIcon = $("#contoggleIcon");
+
+         if (newpsw.attr("type") === "password") {
+            newpsw.attr("type", "text");
+            newtoggleIcon.removeClass("fa-eye").addClass("fa-eye-slash");
+        } else {
+            newpsw.attr("type", "password");
+            newtoggleIcon.removeClass("fa-eye-slash").addClass("fa-eye");
+        }
+
+    });
+
+
+
+    });
+
+
+
+
+</script>

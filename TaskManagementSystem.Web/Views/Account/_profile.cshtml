@@ -1,0 +1,110 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+    Layout = "_LoginLayout";
+}
+<style>
+    .profile-image-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .profile-image {
+        border: 3px solid #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .upload-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: #007bff;
+        color: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .placeholder-image {
+        border: 2px solid #007bff !important;
+        font-size: 2rem;
+    }
+</style>
+
+<div class="card-body">
+    <div class="modal-header bg-primary text-white rounded-top">
+        <h5 class="modal-title"><i class="bi bi-person-circle me-2"></i> Profile</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <div class="d-flex flex-column align-items-center mt-4">
+        <div class="profile-image-container mb-3">
+            @if (!string.IsNullOrEmpty(Model.HiteshTaskUserMasterModel.ImagesUrl))
+            {
+                <img src="~/Images/@Model.HiteshTaskUserMasterModel.ImagesUrl" alt="Profile Picture" class="rounded-circle profile-image" width="120" height="120" style="object-fit: cover;">
+            }
+            else
+            {
+                <div class="placeholder-image rounded-circle d-flex align-items-center justify-content-center text-primary fw-bold" style="width: 120px; height: 120px; border: 2px solid #007bff;">
+                    <span>@Model.HiteshTaskUserMasterModel.FullName?.Substring(0, 1).ToUpper()</span>
+                </div>
+            }
+            @* <div class="upload-icon"> *@
+            @*     <i class="bi bi-camera-fill"></i> *@
+            @* </div> *@
+        </div>
+
+        <h6 class="mb-1 fw-bold">@Model.HiteshTaskUserMasterModel.FullName</h6>
+        <p class="text-muted mb-3"><i class="bi bi-envelope-fill me-1"></i> @Model.HiteshTaskUserMasterModel.Email</p>
+    </div>
+
+    <hr class="my-4">
+
+    <form id="profile" enctype="multipart/form-data" novalidate>
+        <input type="hidden" asp-for="@Model.HiteshTaskUserMasterModel.Id" />
+        <input type="hidden" asp-for="@Model.HiteshTaskUserMasterModel.RoleId" />
+        @* <div class="mb-3 row"> *@
+        @*     <label for="FullName" class="col-sm-3 col-form-label text-md-end"><i class="bi bi-person-fill me-2"></i> Full Name</label> *@
+        @*     <div class="col-sm-9"> *@
+        @*         <input type="text" id="FullName" class="form-control" placeholder="Full Name" asp-for="@Model.HiteshTaskUserMasterModel.FullName" required disabled> *@
+        @*     </div> *@
+        @* </div> *@
+
+        @* <div class="mb-3 row"> *@
+        @*     <label for="Email" class="col-sm-3 col-form-label text-md-end"><i class="bi bi-envelope-at-fill me-2"></i> Email</label> *@
+        @*     <div class="col-sm-9"> *@
+        @*         <input type="email" id="Email" class="form-control" placeholder="Email Address" asp-for="@Model.HiteshTaskUserMasterModel.Email" required disabled> *@
+        @*     </div> *@
+        @* </div> *@
+
+        <div class="mb-3 row">
+            <label for="img" class="col-sm-3 col-form-label text-md-end"><i class="bi bi-image-fill me-2"></i> Photo</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <input type="file" id="img" class="form-control" asp-for="@Model.HiteshTaskUserMasterModel.Photo" aria-describedby="upload-addon">
+                    <label class="input-group-text" for="img" id="upload-addon">Upload</label>
+                </div>
+                <span asp-validation-for="@Model.HiteshTaskUserMasterModel.Photo" class="text-danger"></span>
+                <small class="form-text text-muted">Upload a profile picture (optional).</small>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary w-25" onclick="TaskManagementSystem.Account.ChangeProfile()"><i class="bi bi-save-fill me-2"></i> Update</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-x-octagon-fill me-2"></i> Close</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

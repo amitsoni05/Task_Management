@@ -1,0 +1,106 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+<!-- Filter Section -->
+<div class="container mb-5">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title mb-3">Filter by Date & User</h5>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <label for="startDate" class="form-label">Start Date</label>
+                    <input type="date" id="startDate" class="form-control" />
+                </div>
+                <div class="col-md-3">
+                    <label for="endDate" class="form-label">End Date</label>
+                    <input type="date" id="endDate" class="form-control" />
+                </div>
+                @{
+                    if(Model.RoleId==1){
+                        <div class="col-md-4">
+                            <label for="userDropdown" class="form-label">Select User</label>
+                            <select id="userDropdown" class="form-select">
+                                <option value="">-- Select User --</option>
+                                @foreach (var user in Model.HiteshTaskProjectModel.UserMasterList)
+                                {
+                                    <option value="@user.Value">@user.Text</option>
+                                }
+                            </select>
+                        </div>
+                    }else{
+                        <input type="hidden" id="userDropdown" asp-for="@Model.HiteshTaskUserMasterModel.Id"  />
+                    }
+                }
+                
+                <div class="col-md-2 d-grid">
+                    <label class="form-label d-none d-md-block">&nbsp;</label>
+                    <button class="btn btn-primary" id="applyFilter">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Section -->
+<div class="container">
+    <div class="row g-4">
+        <div class="col-lg-6">
+            <div class="card shadow-sm" style="height:600px; width:600px;">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Pie Chart</h4>
+                    <canvas id="pie-chart" class="w-100" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card shadow-sm" style="height:500px; width:500px;">
+                <div class="card-body"> 
+                    <h4 class="card-title text-center">Bar Chart</h4>
+                    <canvas id="bar-chart" class="w-100" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="text/javascript">
+
+
+    let pieChartInstance, barChartInstance;
+
+    document.addEventListener("DOMContentLoaded", function () {
+       
+        const startDateInput = document.getElementById("startDate");
+        const endDateInput = document.getElementById("endDate");
+
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = today.getMonth();
+
+        // First day of month
+        const firstDay = new Date(year, month, 1);
+        // Last day of month
+        const lastDay = new Date(year, month +1, 0);
+
+        // Format to YYYY-MM-DD
+           const toLocalDateString = (date) => {
+        const y = date.getFullYear();
+        const m = String(date.getMonth() + 1).padStart(2, '0');
+        const d = String(date.getDate()).padStart(2, '0');
+        return `${y}-${m}-${d}`;
+        };
+
+        startDateInput.value = toLocalDateString(firstDay);
+       endDateInput.value = toLocalDateString(lastDay);
+
+       TaskManagementSystem.Chart.loadChartData();
+
+        document.getElementById("applyFilter").addEventListener("click", function () {
+            TaskManagementSystem.Chart.loadChartData();
+        });
+    });
+
+</script>

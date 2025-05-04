@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------------------
+Log date time     : 18-Apr-2025 16:24:02
+Source			: Authentication
+Error line number : ine 228
+Error message     : Object reference not set to an instance of an object.Object reference not set to an instance of an object.
+Trace message     :    at TaskManagementSystem.Provider.Provider.TaskProvider.SaveTask(HiteshTaskAssignTaskModel data, SessionProviderModel sessionProviderModel) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\TaskProvider.cs:line 228
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+Log date time     : 18-Apr-2025 16:24:32
+Source			: Authentication
+Error line number : ine 228
+Error message     : Object reference not set to an instance of an object.Object reference not set to an instance of an object.
+Trace message     :    at TaskManagementSystem.Provider.Provider.TaskProvider.SaveTask(HiteshTaskAssignTaskModel data, SessionProviderModel sessionProviderModel) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\TaskProvider.cs:line 228
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+Log date time     : 18-Apr-2025 17:38:23
+Source			: Authentication
+Error line number : ine 228
+Error message     : Object reference not set to an instance of an object.Object reference not set to an instance of an object.
+Trace message     :    at TaskManagementSystem.Provider.Provider.TaskProvider.SaveTask(HiteshTaskAssignTaskModel data, SessionProviderModel sessionProviderModel) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\TaskProvider.cs:line 228
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+Log date time     : 18-Apr-2025 17:39:17
+Source			: Authentication
+Error line number : ine 228
+Error message     : Object reference not set to an instance of an object.Object reference not set to an instance of an object.
+Trace message     :    at TaskManagementSystem.Provider.Provider.TaskProvider.SaveTask(HiteshTaskAssignTaskModel data, SessionProviderModel sessionProviderModel) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\TaskProvider.cs:line 228
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+

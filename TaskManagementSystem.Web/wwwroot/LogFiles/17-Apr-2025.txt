@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------------------
+Log date time     : 17-Apr-2025 18:33:28
+Source			: Authentication
+Error line number : line 34
+Error message     : The input string 'veer123' was not in a correct format.The input string 'veer123' was not in a correct format.
+Trace message     :    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Int32.Parse(String s)
+   at TaskManagementSystem.Common.Utility.PasswordHash.ValidatePassword(String password, String correctHash) in C:\Hitesh\Task_Management\TaskManagementSystem.Common\Utility\PasswordHash.cs:line 35
+   at TaskManagementSystem.Provider.Provider.AccountProvider.CheckLogin(HiteshTaskUserMasterModel master) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\AccountProvider.cs:line 34
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+Log date time     : 17-Apr-2025 18:35:50
+Source			: Authentication
+Error line number : ine 228
+Error message     : Object reference not set to an instance of an object.Object reference not set to an instance of an object.
+Trace message     :    at TaskManagementSystem.Provider.Provider.TaskProvider.SaveTask(HiteshTaskAssignTaskModel data, SessionProviderModel sessionProviderModel) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\TaskProvider.cs:line 228
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+

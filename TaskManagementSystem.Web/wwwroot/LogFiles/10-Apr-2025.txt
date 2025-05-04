@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------------------
+Log date time     : 10-Apr-2025 11:11:08
+Source			: Authentication
+Error line number : line 71
+Error message     : Object reference not set to an instance of an object.Object reference not set to an instance of an object.
+Trace message     :    at TaskManagementSystem.Provider.Provider.AccountProvider.CheckPassword(HiteshTaskUserMasterModel master) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\AccountProvider.cs:line 71
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+Log date time     : 10-Apr-2025 11:11:38
+Source			: Authentication
+Error line number : line 71
+Error message     : Object reference not set to an instance of an object.Object reference not set to an instance of an object.
+Trace message     :    at TaskManagementSystem.Provider.Provider.AccountProvider.CheckPassword(HiteshTaskUserMasterModel master) in C:\Hitesh\Task_Management\TaskManagementSystem.Provider\Provider\AccountProvider.cs:line 71
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+

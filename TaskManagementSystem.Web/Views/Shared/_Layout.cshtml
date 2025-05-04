@@ -1,0 +1,136 @@
+﻿
+<!DOCTYPE html>  
+<html lang="en">  
+<head> 
+
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>@ViewData["Title"] - TaskManagementSystem.Web</title> 
+    @await Html.PartialAsync("_HeaderScriptPartial")
+
+    <style type="text/css">
+        .jqstooltip {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            visibility: hidden;
+            background: rgb(0, 0, 0) transparent;
+            background-color: rgba(0,0,0,0.6);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+            white-space: nowrap;
+            padding: 5px;
+            border: 1px solid white;
+            z-index: 10000;
+        }
+
+        .jqsfield {
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+        }
+
+
+        .container {
+            max-width: 1500px !important;
+        }
+    </style>
+    
+</head> 
+<script src="https://cdn.jsdelivr.net/npm/chart.js" asp-append-version="true"></script>
+<body>
+  
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader"> 
+        <div class="lds-ripple"> 
+            <div class="lds-pos"></div> 
+            <div class="lds-pos"></div> 
+        </div> 
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" style="margin-top:-22px;">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+     
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        @await Component.InvokeAsync("HeaderView")
+        @await Component.InvokeAsync("MenuView")
+
+
+
+
+
+
+
+
+
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+      
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+
+   <div class="container">
+
+          
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+            <div id="common-lg-dialog" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-keyboard="false">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content" id="common-lg-DialogContent">
+                    </div>
+                </div>
+            </div>
+
+            <div id="fullscreeexampleModal" class="modal fade" role="dialog" aria-labelledby="fullscreeexampleModalLabel" aria-hidden="true" data-backdrop="false">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content" id="fullscreeexampleModal-DialogContent">
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="common-dialog" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content" id="common-DialogContent">
+                    </div>
+                </div>
+            </div>
+
+            <div id="common-md-dialog" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content" id="common-md-DialogContent" style="border: 1px solid #ccc;">
+                    </div>
+
+                </div>
+
+            </div>
+
+            @await Html.PartialAsync("_FooterScriptPartial")
+            @RenderSection("Scripts", required: false)
+        </div> 
+   </div>
+  
+</body>
+</html>

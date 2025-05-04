@@ -1,0 +1,17 @@
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\bin\Debug\net8.0\TaskManagementSystem.Repository.deps.json
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\bin\Debug\net8.0\TaskManagementSystem.Repository.runtimeconfig.json
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\bin\Debug\net8.0\TaskManagementSystem.Repository.dll
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\bin\Debug\net8.0\TaskManagementSystem.Repository.pdb
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\bin\Debug\net8.0\TaskManagementSystem.Common.dll
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\bin\Debug\net8.0\TaskManagementSystem.Common.pdb
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.csproj.AssemblyReference.cache
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.AssemblyInfoInputs.cache
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.AssemblyInfo.cs
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.csproj.CoreCompileInputs.cache
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskMana.37F6EF73.Up2Date
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.dll
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\refint\TaskManagementSystem.Repository.dll
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.pdb
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\TaskManagementSystem.Repository.genruntimeconfig.cache
+C:\Hitesh\Task_Management\TaskManagementSystem.Repository\obj\Debug\net8.0\ref\TaskManagementSystem.Repository.dll

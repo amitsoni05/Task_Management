@@ -1,0 +1,93 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+	Layout = "_LoginLayout";
+}
+
+
+<div class="modal-header">
+    <b> Date : @Model.HiteshTaskAssignTaskModel.SlotDate</b>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-bordered" style="table-layout: fixed; width: 150%;">
+        <thead class="table-primary text-white">
+            <tr>
+                <th width="30%">Project Name</th>
+                <th width="20%">Title</th>
+                <th width="25%">Description</th>
+                @{
+                    if(Model.HiteshTaskAssignTaskModel.roleid==1){
+                        <th width="10%">AssignTo</th>
+                    }
+                }
+                <th width="20%">CreatedOn</th>
+                <th width="20%">DeadLine</th>
+                <th width="10%">Priority</th>
+                <th width="10%">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.HiteshAssignTaskModelList.Any(x => x.StatusString == "Confirm"))
+            {
+                <tr class=" text-white fw-bold text-center">
+                    <td colspan="8">✅ Confirm Tasks</td>
+                </tr>
+
+                @foreach (var item in Model.HiteshAssignTaskModelList.Where(x => x.StatusString == "Confirm"))
+                {
+                    <tr >
+                        <td>@item.ProjectName</td>
+                        <td>@item.Title</td>
+                        <td>@item.Description</td>
+                        @{
+                            if (Model.HiteshTaskAssignTaskModel.roleid == 1)
+                            {
+                                <td>@item.AssignTo</td>
+                            }
+                        }
+                        <td>@item.CreatedOn.Value.ToString("yyyy-MM-dd")</td>
+                        <td>@item.DeadLine.ToString("yyyy-MM-dd")</td>
+                        <td><span class="badge bg-info">@item.PriorityString</span></td>
+                        <td><span class="badge bg-success">@item.StatusString</span></td>
+                    </tr>
+                }
+            }
+
+            @if (Model.HiteshAssignTaskModelList.Any(x => x.StatusString == "Pending"))
+            {
+                <tr class=" text-dark fw-bold text-center">
+                    <td colspan="8">⏳ Pending Tasks</td>
+                </tr>
+
+                @foreach (var item in Model.HiteshAssignTaskModelList.Where(x => x.StatusString == "Pending"))
+                {
+                    <tr >
+                        <td>@item.ProjectName</td>
+                        <td>@item.Title</td>
+                        <td>@item.Description</td>
+                        @{
+                            if (Model.HiteshTaskAssignTaskModel.roleid == 1)
+                            {
+                                <td>@item.AssignTo</td>
+                            }
+                        }
+                        <td>@item.CreatedOn.Value.ToString("yyyy-MM-dd")</td>
+                        <td>@item.DeadLine.ToString("yyyy-MM-dd")</td>
+                        <td><span class="badge bg-secondary">@item.PriorityString</span></td>
+                        <td><span class="badge bg-warning text-dark">@item.StatusString</span></td>
+                    </tr>
+
+                }
+            }
+
+            
+        </tbody>
+    </table>
+</div>
+
+<div class="modal-footer">
+   
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+</div>

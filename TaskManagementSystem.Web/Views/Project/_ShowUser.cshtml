@@ -1,0 +1,53 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+    Layout = "_LoginLayout";
+}
+
+<div class="card-body">
+
+
+
+                    <div class="modal-header">
+                            <h5 class="modal-title">Show Team Member</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+
+
+
+    <br />
+    <div class="card">
+        <div class="card-body">
+           
+            <div class="table-responsive">
+                <div id="zero_config_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">                 
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table id="userTable" class="table table-striped table-bordered dataTable" role="grid" aria-describedby="zero_config_info">
+                                <thead>
+                                    <tr role="row">
+                                        <th class="sorting_asc" tabindex="0" aria-controls="zero_config" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Full_Name: activate to sort column descending" style="width: 0px;">Full_Name</th>
+                                        <th class="sorting" tabindex="0" aria-controls="zero_config" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 0px;">Email</th>
+                                       
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        foreach(var item in Model.HiteshTaskProjectModel.Users){
+                                            <tr role="row">
+                                                <td class="sorting_asc" tabindex="0" aria-controls="zero_config" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Full_Name: activate to sort column descending" style="width: 0px;">@item.FullName</td>
+                                                <td class="sorting" tabindex="0" aria-controls="zero_config" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 0px;">@item.Email</td>
+
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

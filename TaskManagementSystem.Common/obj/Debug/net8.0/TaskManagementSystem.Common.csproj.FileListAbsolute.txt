@@ -1,0 +1,12 @@
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\bin\Debug\net8.0\TaskManagementSystem.Common.deps.json
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\bin\Debug\net8.0\TaskManagementSystem.Common.dll
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\bin\Debug\net8.0\TaskManagementSystem.Common.pdb
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\TaskManagementSystem.Common.csproj.AssemblyReference.cache
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\TaskManagementSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\TaskManagementSystem.Common.AssemblyInfoInputs.cache
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\TaskManagementSystem.Common.AssemblyInfo.cs
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\TaskManagementSystem.Common.csproj.CoreCompileInputs.cache
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\TaskManagementSystem.Common.dll
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\refint\TaskManagementSystem.Common.dll
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\TaskManagementSystem.Common.pdb
+C:\Hitesh\Task_Management\TaskManagementSystem.Common\obj\Debug\net8.0\ref\TaskManagementSystem.Common.dll

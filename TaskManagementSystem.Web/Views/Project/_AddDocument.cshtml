@@ -1,0 +1,58 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+	Layout = "_LoginLayout";
+}
+
+
+
+
+<div class="container">
+
+    <div class="modal-header">
+        <h5 class="modal-title"> Upload Documents</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <form id="Document" enctype="multipart/form-data">
+        <input type="hidden" class="form-control" asp-for="@Model.HiteshTaskDocumentSaveModel.ProjectId" id="Pid" />
+
+        <div class="mb-3">
+            <input type="file" id="files" asp-for="@Model.HiteshTaskDocumentSaveModel.Files" accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg,.jpeg,.gif" />
+            <button type="button" class="btn btn-primary mt-2" onclick="TaskManagementSystem.Project.Upload()">Upload File</button>
+        </div>
+
+        <!-- Preview Images -->
+        <table class="table mt-3" id="fileTable">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>File Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <!-- Submit Button -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary w-20" onclick="TaskManagementSystem.Project.SaveDocument()">Add Document</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </form>
+
+</div>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+
+
+
+}
+
+

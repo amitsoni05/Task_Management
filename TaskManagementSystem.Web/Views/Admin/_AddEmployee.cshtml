@@ -1,0 +1,72 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+	Layout = "_LoginLayout";
+}
+<div class="card-body">
+    @{
+        
+            <div class="modal-header">
+            
+                <h5 class="modal-title">
+                    @(Model.HiteshTaskUserMasterModel.IsEdit ? "Edit Employee Details" : "Add Employee Details")
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+        
+    }
+    
+    <br />
+    <form id="empdata" novalidate> 
+        <input type="hidden" asp-for="@Model.HiteshTaskUserMasterModel.Id" />
+    <div class="form-group row">
+        <label for="fname" class="col-sm-3 text-right control-label col-form-label">Full Name</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" placeholder="First Name " asp-for="@Model.HiteshTaskUserMasterModel.FullName" required>
+        </div>
+            <span asp-validation-for="@Model.HiteshTaskUserMasterModel.FullName" class="text-danger"></span>
+    </div>
+    <div class="form-group row">
+        <label for="email" class="col-sm-3 text-right control-label col-form-label">Email</label>
+        <div class="col-sm-9">
+            <input type="email" class="form-control"  placeholder="Email Here" asp-for="@Model.HiteshTaskUserMasterModel.Email" required>
+        </div>
+            <span asp-validation-for="@Model.HiteshTaskUserMasterModel.Email" class="text-danger" ></span>
+    </div>
+    @{
+            if (Model.HiteshTaskUserMasterModel.Id==0){
+                <div class="form-group row">
+                    <label for="password" class="col-sm-3 text-right control-label col-form-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" placeholder="password Here" asp-for="@Model.HiteshTaskUserMasterModel.Password" required>
+                    </div>
+                    <span asp-validation-for="@Model.HiteshTaskUserMasterModel.Password" class="text-danger"></span>
+                </div>
+            }
+    }
+   
+    @{
+        if(Model.HiteshTaskUserMasterModel.Id>0){
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary w-20" onclick="TaskManagementSystem.Admin.SaveEmployee()">Update</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+        }else{
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary w-20" onclick="TaskManagementSystem.Admin.SaveEmployee()">Add</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+        }
+    }
+  
+    </form>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

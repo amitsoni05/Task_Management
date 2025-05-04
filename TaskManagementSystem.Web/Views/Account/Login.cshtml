@@ -1,0 +1,153 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+@{
+    Layout = "_LoginLayout";
+}
+
+
+    <div class="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <div class="preloader" style="display: none;">
+            <div class="lds-ripple">
+                <div class="lds-pos"></div>
+                <div class="lds-pos"></div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Login box.scss -->
+        <!-- ============================================================== -->
+        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="background:url(../../assets/images/big/auth-bg.jpg) no-repeat center center;">
+            <div class="auth-box">
+                <div id="loginform">
+                    <div class="logo">
+                    <span class="db"><img src="~/assets/images/task-management-removebg-preview-Photoroom.png" alt="logo" height="100px" width="100px" style="border-radius:100%;" /></span>
+                        <h5 class="font-medium m-b-20">Sign In to Admin</h5>
+                    </div>
+                    <!-- Form -->
+                    <div class="row">
+                        <div class="col-12">
+                        <form class="form-horizontal m-t-20" id="loginformdata">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="email-icon" style="cursor: pointer;">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                    </div>
+                                    <input type="email" class="form-control" id="email" asp-for="@Model.HiteshTaskUserMasterModel.Email" placeholder="Enter Email Address" required>
+                                </div>
+                                <span asp-validation-for="@Model.HiteshTaskUserMasterModel.Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="toggle-password-btn">
+                                            <i class="fa fa-eye" id="toggleIcon"></i>
+                                        </span>
+                                    </div>
+
+                                    <input type="password" class="form-control" id="password" asp-for="@Model.HiteshTaskUserMasterModel.Password" placeholder="Enter password" required>
+
+                                </div>
+
+                                <span asp-validation-for="@Model.HiteshTaskUserMasterModel.Password" class="text-danger"></span>
+                            </div>
+                            <div class="col-12">
+                                <div class="row mb-3" style="margin-bottom:3px; margin-left:-17px;">
+                                    <div class="col-6">
+                                        <label for="emailaddress">Captcha</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon3"><i class="fa-solid fa-pencil"></i></span>
+                                            </div>
+                                            <input type="text" id="txtCaptcha" asp-for="@Model.HiteshTaskUserMasterModel.CaptchaCode" class="form-control form-control-lg" placeholder="Captcha" aria-label="Captcha" aria-describedby="inputGroupPrepend" maxlength="4" required
+                                                   onpaste="return false;" autocomplete="off">
+
+                                        </div>
+                                        <span asp-validation-for="@Model.HiteshTaskUserMasterModel.CaptchaCode" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-5 captch-view " style="margin-top: 7.5%; ">
+                                        <div class="input-group ">
+                                            <div class="input-group-prepend">
+                                                <button class="input-group-text" id="basic-addon4" onclick="TaskManagementSystem.Account.RefreshCaptcha()"><i class="fa fa-refresh"></i></button>
+                                            </div>
+                                            <img src="@Model.HiteshTaskUserMasterModel.CaptchaImage" alt="" class="imgCaptcha" height="45" width="79" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <div class="custom-control custom-checkbox">
+                                            @* <input type="checkbox" class="custom-control-input" id="customCheck1"> *@
+                                            @* <label class="custom-control-label" for="customCheck1">Remember me</label> *@
+                                        <a class="text-dark float-right" asp-action="ResetPassword" asp-controller="Account"><i class="fa fa-lock m-r-5"></i> Forgot pwd?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group text-center">
+                                    <div class="col-xs-12 p-b-20">
+                                    <button type="button" id="btn" class="btn btn-block btn-lg btn-info" onclick="TaskManagementSystem.Account.Login()">Log In</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 m-t-10 text-center">
+                                        <div class="social">
+                                            <a href="javascript:void(0)" class="btn  btn-facebook" data-toggle="tooltip" title="" data-original-title="Login with Facebook"> <i aria-hidden="true" class="fab  fa-facebook"></i> </a>
+                                            <a href="javascript:void(0)" class="btn btn-googleplus" data-toggle="tooltip" title="" data-original-title="Login with Google"> <i aria-hidden="true" class="fab  fa-google-plus"></i> </a>
+                                        </div>
+                                    </div>
+                              </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+     
+    </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}
+
+<script src="~/js/themes/jquery.min.js" asp-append-version="true"></script>
+<script type="text/javascript">
+
+        $(document).ready(function() {
+      $('#loginformdata').on('keypress', function(event) {
+        if (event.which === 13) {
+          event.preventDefault();
+          $("#btn").click();
+        }
+      });
+
+       $("#toggle-password-btn").on("click", function () {
+        var passwordField = $("#password");
+        var toggleIcon = $("#toggleIcon");
+
+        if (passwordField.attr("type") === "password") {
+            passwordField.attr("type", "text");
+            toggleIcon.removeClass("fa-eye").addClass("fa-eye-slash");
+        } else {
+            passwordField.attr("type", "password");
+            toggleIcon.removeClass("fa-eye-slash").addClass("fa-eye");
+        }
+    });
+
+    });
+
+    
+
+
+</script>

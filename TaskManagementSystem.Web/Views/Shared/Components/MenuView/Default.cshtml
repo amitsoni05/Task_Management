@@ -1,0 +1,150 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel 
+
+<aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li>
+                            <!-- User Profile-->
+                            @* <div class="user-profile d-flex no-block dropdown mt-3"> *@
+                            @*     <div class="user-pic"><img src="../../assets/images/users/1.jpg" alt="users" class="rounded-circle" width="40" /></div> *@
+                            @*     <div class="user-content hide-menu ml-2"> *@
+                            @*         <a href="javascript:void(0)" class="" id="Userdd" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> *@
+                            @*             <h5 class="mb-0 user-name font-medium">Steave Jobs <i class="fa fa-angle-down"></i></h5> *@
+                            @*             <span class="op-5 user-email">varun@gmail.com</span> *@
+                            @*         </a> *@
+                            @*         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="Userdd"> *@
+                            @*             <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user mr-1 ml-1"></i> My Profile</a> *@
+                            @*             <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet mr-1 ml-1"></i> My Balance</a> *@
+                            @*             <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email mr-1 ml-1"></i> Inbox</a> *@
+                            @*             <div class="dropdown-divider"></div> *@
+                            @*             <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings mr-1 ml-1"></i> Account Setting</a> *@
+                            @*             <div class="dropdown-divider"></div> *@
+                            @*             <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-power-off mr-1 ml-1"></i> Logout</a> *@
+                            @*         </div> *@
+                            @*     </div> *@
+                            @* </div> *@
+                            <!-- End User Profile-->
+                        </li>
+                        <!-- User Profile-->
+                        @* <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <span class="hide-menu">Menu</span></li> *@
+
+                        @{
+
+
+                    <li class="sidebar-item">
+
+
+                        <a class="sidebar-link  waves-effect waves-dark" aria-expanded="false" asp-action="SHowChart" asp-controller="Dashboard"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">DashBoard </span></a>
+
+                    </li>
+
+                    if (@Model.RoleId==1)
+                    {
+
+                        
+
+                        <li class="sidebar-item">
+
+
+                            <a class="sidebar-link  waves-effect waves-dark" aria-expanded="false" asp-action="Index" asp-controller="Admin"><i class="mdi mdi-solid fa-user"></i><span class="hide-menu">Employee </span></a>
+
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark" aria-expanded="false" asp-action="Index" asp-controller="Project" ><i class="mdi mdi-tune-vertical"></i><span class="hide-menu">Project </span></a>
+
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link  waves-effect waves-dark" aria-expanded="false" asp-action="Index" asp-controller="Task" ><i class="fa-solid fa-list-check"></i><span class="hide-menu">Task </span></a>
+
+                        </li>
+                       
+                    }
+                     else{
+                      
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark" aria-expanded="false" asp-action="Index" asp-controller="User" ><i class="mdi mdi-tune-vertical"></i><span class="hide-menu">Project </span></a>
+
+                        </li> 
+                        <li class="sidebar-item">
+                            <a class="sidebar-link  waves-effect waves-dark" aria-expanded="false" asp-action="Task" asp-controller="User" ><i class="fa-solid fa-list-check"></i><span class="hide-menu">Task </span></a>
+
+                        </li>
+
+                        
+                     } 
+
+                 }
+                <li class="sidebar-item">
+                    <a class="sidebar-link  waves-effect waves-dark" aria-expanded="false" asp-action="Calender" asp-controller="User"><i class="fa-solid fa-calendar-days"></i><span class="hide-menu">Calender </span></a>
+
+                </li>
+
+
+
+
+
+
+
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+
+
+
+<div class="page-wrapper">
+    <!-- ============================================================== -->
+    <!-- Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <div class="page-breadcrumb">
+        <div class="row">
+            <div class="col-5 align-self-center">
+                <h4 class="page-title" id="dashboard">@TempData["title"] </h4>
+                @* <div class="d-flex align-items-center"> *@
+                @*     <nav aria-label="breadcrumb"> *@
+                @*         <ol class="breadcrumb"> *@
+                @*             <li class="breadcrumb-item"><a href="#">Home</a></li> *@
+                @*             <li class="breadcrumb-item active" aria-current="page">Library</li> *@
+                @*         </ol> *@
+                @*     </nav> *@
+                @* </div> *@
+            </div>
+            <div class="col-7 align-self-center">
+                @* <div class="d-flex no-block justify-content-end align-items-center"> *@
+                @*     <div class="mr-2"> *@
+                @*         <div class="lastmonth"></div> *@
+                @*     </div> *@
+                @*     <div class=""> *@
+                @*         <small>LAST MONTH</small> *@
+                @*         <h4 class="text-info mb-0 font-medium">$58,256</h4> *@
+                @*     </div> *@
+                @* </div> *@
+
+                @* <div class="d-flex align-items-center"> *@
+                <div class="d-flex no-block justify-content-end align-items-center">
+                    <nav aria-label="breadcrumb" class="mr-2">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page" id="main">@TempData["title"] </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@* <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script> *@
+@* <script type="text/javascript"> *@
+@*     function updateBreadcrumb(title) { *@
+@*         debugger; *@
+@*           $("#dashboard").text(title); *@
+@*           $("#main").text(title); *@
+@*       } *@
+@* </script> *@

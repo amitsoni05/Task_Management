@@ -1,0 +1,266 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel  
+
+<style>
+    .logo-custom {
+    height: 40px;
+    width: 40px;
+    object-fit: contain; /* keeps image from stretching */
+    }
+
+
+    .user-info span {
+    display: block; /* Make each span take a new line */
+    }
+
+    /* Optional: Add some spacing between the name and role */
+
+
+
+</style>
+<!-- ============================================================== -->
+<header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+        <div class="navbar-header">
+            <!-- This is for the sidebar toggle which is visible on mobile only -->
+            <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+            <!-- ============================================================== -->
+            <!-- Logo -->
+            <!-- ============================================================== -->
+            <a class="navbar-brand" href="index.html">
+                <!-- Logo icon -->
+                <b class="logo-icon">
+                    <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                    <!-- Dark Logo icon -->
+
+                    <!-- Light Logo icon -->
+                    <img src="~/assets/images/task-management-removebg-preview.png" alt="homepage" class="light-logo logo-custom"/>
+
+
+                </b>
+
+                <span class="logo-text">
+                    <!-- dark Logo text -->
+                    @* <img src="~/assets/images/download (3).png" alt="homepage" class="dark-logo" style="height:20px; width:20px;"> *@
+                    <!-- Light Logo text -->
+                    <img src="~/assets/images/logo-img.png" class="light-logo mr-5" alt="homepage" style="height:100px; width:200px; color:white; margin-left:-40px; ">
+                </span>
+                <!--End Logo icon -->
+                <!-- Logo text -->
+                @* <span class="logo-text"> *@
+                @*     <!-- dark Logo text --> *@
+
+                @*     <!-- Light Logo text --> *@
+                @*     <img src="~/assets/images/download1.png" alt="homepage" class="light-logo logo-custom" /> *@
+                @* </span> *@
+            </a>
+            <!-- ============================================================== -->
+            <!-- End Logo -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Toggle which is visible on mobile only -->
+            <!-- ============================================================== -->
+            <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <!-- ============================================================== -->
+            <!-- toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav float-left mr-auto">
+                <li class="nav-item d-none d-md-block"><a class="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i class="mdi mdi-menu font-24"></i></a></li>
+                <!-- ============================================================== -->
+                <!-- mega menu -->
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+                <!-- End mega menu -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- create new -->
+                <!-- ============================================================== -->
+
+            </ul>
+            <!-- ============================================================== -->
+            <!-- Right side toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav float-right">
+                <!-- ============================================================== -->
+                <!-- create new -->
+                <!-- ============================================================== -->
+
+                <!-- ============================================================== -->
+                <!-- Comment -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="d-flex flex-column align-items-start">
+                            <ul class="list-unstyled" style="margin-top:15px;">
+                                <li class="fw-bold user-info">
+                                    <div style="line-height: 1.2;">
+                                        <span>@Model.HiteshTaskUserMasterModel.FullName</span>
+                                        <span style="display: block; margin-top: 5px; color:black;" >
+                                            @(Model.HiteshTaskUserMasterModel.RoleId == 1 ? "Admin" : "User")
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown">
+                        @* <span class="with-arrow"><span class="bg-primary"></span></span> *@
+                        <ul class="list-style-none">
+                            @* <li> *@
+                            @*     <div class="drop-title bg-primary text-white"> *@
+                            @*         <h4 class="mb-0 mt-1">4 New</h4> *@
+                            @*         <span class="font-light">Notifications</span> *@
+                            @*     </div> *@
+                            @* </li> *@
+                            @* <li> *@
+                            @*     <div class="message-center notifications"> *@
+                            @*         <!-- Message --> *@
+                            @*         <a href="javascript:void(0)" class="message-item"> *@
+                            @*             <span class="btn btn-danger btn-circle"><i class="fa fa-link"></i></span> *@
+                            @*             <div class="mail-contnet"> *@
+                            @*                 <h5 class="message-title">Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span> <span class="time">9:30 AM</span> *@
+                            @*             </div> *@
+                            @*         </a> *@
+                            @*         <!-- Message --> *@
+                            @*         <a href="javascript:void(0)" class="message-item"> *@
+                            @*             <span class="btn btn-success btn-circle"><i class="ti-calendar"></i></span> *@
+                            @*             <div class="mail-contnet"> *@
+                            @*                 <h5 class="message-title">Event today</h5> <span class="mail-desc">Just a reminder that you have event</span> <span class="time">9:10 AM</span> *@
+                            @*             </div> *@
+                            @*         </a> *@
+                            @*         <!-- Message --> *@
+                            @*         <a href="javascript:void(0)" class="message-item"> *@
+                            @*             <span class="btn btn-info btn-circle"><i class="ti-settings"></i></span> *@
+                            @*             <div class="mail-contnet"> *@
+                            @*                 <h5 class="message-title">Settings</h5> <span class="mail-desc">You can customize this template as you want</span> <span class="time">9:08 AM</span> *@
+                            @*             </div> *@
+                            @*         </a> *@
+                            @*         <!-- Message --> *@
+                            @*         <a href="javascript:void(0)" class="message-item"> *@
+                            @*             <span class="btn btn-primary btn-circle"><i class="ti-user"></i></span> *@
+                            @*             <div class="mail-contnet"> *@
+                            @*                 <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> *@
+                            @*             </div> *@
+                            @*         </a> *@
+                            @*     </div> *@
+                            @* </li> *@
+                            @* <li> *@
+                            @*     <a class="nav-link text-center mb-1 text-dark" href="javascript:void(0);"> <strong>Check all notifications</strong> <i class="fa fa-angle-right"></i> </a> *@
+                            @* </li> *@
+                        </ul>
+                    </div>
+                </li>
+                <!-- ============================================================== -->
+                <!-- End Comment -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Messages -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="font-24 mdi mdi-comment-processing"></i>
+
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown" aria-labelledby="2">
+                        <span class="with-arrow"><span class="bg-danger"></span></span>
+                        <ul class="list-style-none">
+                            @{
+
+
+                                <li>
+                                    <div class="drop-title text-white bg-danger">
+                                        <h4 class="mb-0 mt-1">
+                                            @TempData["count"]
+                                            New</h4>
+                                        <span class="font-light">Messages</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="message-center message-body">
+                                        @{
+
+                                            foreach (var item in Model.hIteshTaskMessageModelsList){
+                                                <a href="javascript:void(0)" class="message-item">
+                                                    <span class="user-img"> <img src="~/Images/@item.ImagesUrl" alt="user" class="rounded-circle"> <span class="profile-status online pull-right"></span> </span>
+                                                    <div class="mail-contnet">
+                                                        <h5 class="message-title">@item.FullName</h5> <span class="time">@item.Time</span>
+                                                    </div>
+
+                                                </a>
+                                                TempData["count"] = item.count;
+                                                TempData["id"] = item.ReceiveId;
+                                            }
+                                    }
+                                    
+                                </div>
+                            </li>
+                            }
+                            <li>
+                                <a class="nav-link text-center link text-dark" onclick="TaskManagementSystem.User.Message(@TempData["id"])"> <b>See all message</b> <i class="fa fa-angle-right"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- ============================================================== -->
+                <!-- End Messages -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- User profile and search -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown mr-2"> 
+                   
+                        @{
+                            if (@Model.HiteshTaskUserMasterModel.ImagesUrl != null)
+                            {
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <img src="~/Images/@Model.HiteshTaskUserMasterModel.ImagesUrl" alt="user" class="rounded-circle" width="31"></a> 
+                            }
+                            else
+                            {
+
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="~/Images/user.jpg" alt="user" class="rounded-circle" width="31">
+                            </a>
+                        }
+                        }
+                       
+                   <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY"> 
+                       <span class="with-arrow"><span class="bg-primary"></span></span> 
+                       <div class="d-flex no-block align-items-center p-15 bg-primary text-white mb-2"> 
+                           @{
+                                if (@Model.HiteshTaskUserMasterModel.ImagesUrl !=null){
+                                    <div class=""><img src="~/Images/@Model.HiteshTaskUserMasterModel.ImagesUrl" alt="user" class="img-circle" width="60"></div>
+                                }
+                                else{
+                                    <div class=""><img src="~/Images/user.jpg" alt="user" class="img-circle" width="60"></div>
+                                }
+                           }
+                          
+                           <div class="ml-2"> 
+                               <h4 class="mb-0">@Model.HiteshTaskUserMasterModel.FullName</h4> 
+                               <p class=" mb-0">@Model.HiteshTaskUserMasterModel.Email</p> 
+                           </div> 
+                       </div> 
+                       <a class="dropdown-item" onclick="TaskManagementSystem.Account.CngProfile(@Model.HiteshTaskUserMasterModel.Id)"><i class="ti-user mr-1 ml-1"></i> My Profile</a> 
+                       @* <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet mr-1 ml-1"></i> My Balance</a>  *@
+                       @* <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email mr-1 ml-1"></i> Inbox</a>  *@
+                       <div class="dropdown-divider"></div>
+                        <button class="dropdown-item" onclick="TaskManagementSystem.Account.CngPassword(@Model.HiteshTaskUserMasterModel.Id)"><i class="fa-solid fa-key"></i> Change Password</button>
+                        <div class="dropdown-divider"></div> 
+                       <a class="dropdown-item" asp-action="Login" asp-controller="Account"><i class="fa fa-power-off mr-1 ml-1"></i> Logout</a> 
+                       <div class="dropdown-divider"></div> 
+                       @* <div class="pl-4 p-10"><a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">View Profile</a></div>  *@
+                   </div> 
+                </li>
+                <!-- ============================================================== -->
+                <!-- User profile and search -->
+                <!-- ============================================================== -->
+            </ul>
+        </div>
+    </nav>
+</header>

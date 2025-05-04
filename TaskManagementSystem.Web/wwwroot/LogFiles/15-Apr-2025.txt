@@ -1,0 +1,12 @@
+---------------------------------------------------------------------------------------
+Log date time     : 15-Apr-2025 12:27:02
+Source			: Authentication
+Error line number : TaskId)
+Error message     : The input string '5,6,7' was not in a correct format.The input string '5,6,7' was not in a correct format.
+Trace message     :    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToInt32(String value)
+   at TaskManagementSystem.Provider.Provider.UserProvider.GetTaskData(Int32 TaskId)
+Inner Exception   : 
+----------------------------------------------------------------------------------------
+
+

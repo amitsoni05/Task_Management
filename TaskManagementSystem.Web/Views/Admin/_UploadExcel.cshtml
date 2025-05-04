@@ -1,0 +1,218 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+    Layout = "_LoginLayout";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 40px;
+        background: #f5f5f5;
+    }
+
+    .file-container {
+        width: 500px;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+        margin: auto;
+    }
+
+    .file-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        border: 2px dashed #ccc;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        background-color: #fafafa;
+        transition: background 0.3s;
+        position: relative;
+    }
+
+        .file-label:hover {
+            background-color: #f0f8ff;
+        }
+
+        .file-label span {
+            font-weight: bold;
+            font-size: 16px;
+            pointer-events: none;
+        }
+
+    #excelInput {
+        display: none;
+    }
+
+    .file-preview {
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .file-box {
+        display: flex;
+        align-items: center;
+        background: #e0f7fa;
+        border-radius: 8px;
+        padding: 10px 15px;
+        position: relative;
+        max-width: 90%;
+        margin: auto;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        cursor: default;
+    }
+
+        .file-box:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            top: -30px;
+            left: 0;
+            background: #333;
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 5px;
+            white-space: nowrap;
+        }
+
+    .file-icon {
+        font-size: 24px;
+        margin-right: 10px;
+        color: #1d6f42;
+    }
+
+    .file-name {
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 250px;
+    }
+
+    .remove-icon {
+        font-size: 18px;
+        color: red;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    .buttons {
+        margin-top: 25px;
+    }
+
+        .buttons button, .buttons a {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+        }
+
+            .buttons button:hover, .buttons a:hover {
+                background: #0056b3;
+            }
+
+            .buttons button:disabled {
+                background: #ccc;
+                cursor: not-allowed;
+            }
+</style>
+
+<div class="modal-header">
+    <h5 class="modal-title">Upload Excel File</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="file-container">
+    <label class="file-label" for="excelInput">
+        <span>📁 Click here to select an Excel file</span>
+    </label>
+
+    <form id="ExcelData" enctype="multipart/form-data">
+        <input type="file" id="excelInput" name="excelFile" accept=".xlsx,.xls" onchange="handleFileChange(event)" />
+
+        <div class="file-preview" id="filePreview" style="display: none;">
+            <div class="file-box" id="fileBox" data-tooltip="">
+                <span class="file-icon">📄</span>
+                <span class="file-name" id="fileNameText"></span>
+                <span class="remove-icon" onclick="removeFile()">✖</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button type="button" id="uploadBtn" onclick="TaskManagementSystem.Admin.ExcelData()" disabled>Upload</button>
+
+            <a class="btn btn-success"
+               asp-action="Download"
+               asp-controller="Project"
+               asp-route-documentName="Book1.xlsx">Download</a>
+        </div>
+    </form>
+</div>
+
+
+    <div style="margin-top: 20px; text-align: center; display:none;" id="Summary">
+        <h4>📊 Upload Summary</h4>
+    <p><strong>Total Records:</strong> <span id="total"></span></p>
+    <p style="color: green;"><strong>Success:</strong> <span id="success"></span></p>
+    <p style="color: red;"><strong>Error:</strong> <span id="error"></span></p>
+
+       
+            <a id="dwbtn" class="btn btn-danger" href="@Url.Content("~/Documents/ErrorData.xlsx")" download>⬇️ Download Error Excel</a>
+        
+    </div>
+
+
+<div class="modal-footer">
+
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+</div>
+@section Scripts {
+   
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        const input = document.getElementById("excelInput");
+        const filePreview = document.getElementById("filePreview");
+        const fileNameText = document.getElementById("fileNameText");
+        const fileBox = document.getElementById("fileBox");
+        const uploadBtn = document.getElementById("uploadBtn");
+
+        function handleFileChange(event) {
+          const file = event.target.files[0];
+          if (file) {
+            fileNameText.textContent = file.name;
+            fileBox.setAttribute("data-tooltip", file.name);
+            filePreview.style.display = "block";
+            uploadBtn.disabled = false;
+          }
+        }
+
+        function removeFile() {
+          input.value = "";
+          fileNameText.textContent = "";
+          fileBox.setAttribute("data-tooltip", "");
+          filePreview.style.display = "none";
+          uploadBtn.disabled = true;
+        }
+
+        function uploadFile() {
+          alert("Upload button clicked!");
+          // Add your upload logic here (AJAX or form submit)
+        }
+    </script>
+

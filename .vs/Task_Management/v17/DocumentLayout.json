@@ -1,0 +1,1733 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Hitesh\\Task_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\dashboard\\showchart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\dashboard\\showchart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\provider\\commonprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\provider\\commonprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\provider\\taskprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\provider\\taskprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.task.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.task.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\provider\\userprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\provider\\userprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\iprovider\\icommonprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\iprovider\\icommonprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\iprovider\\iprojectprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\iprovider\\iprojectprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\iprovider\\itaskprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\iprovider\\itaskprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\enumeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\enumeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\provider\\accountprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\provider\\accountprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\provider\\projectprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\provider\\projectprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\isessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\isessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.project.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.project.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\shared\\_footerscriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\shared\\_footerscriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\models\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\models\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\iprovider\\iuserprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\iprovider\\iuserprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\hiteshtaskprojectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\hiteshtaskprojectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\hiteshtaskprojectaccessmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\hiteshtaskprojectaccessmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\hiteshtaskusermastermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\hiteshtaskusermastermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\hiteshtaskassigntaskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\hiteshtaskassigntaskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\shared\\components\\menuview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\shared\\components\\menuview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\shared\\_headerscriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\shared\\_headerscriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\shared\\components\\headerview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\shared\\components\\headerview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\user\\_gettaskbydate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\user\\_gettaskbydate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\iprovider\\iaccountprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\iprovider\\iaccountprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\project\\_dowdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\project\\_dowdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\admin\\_uploadexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\admin\\_uploadexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\admin\\_addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\admin\\_addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\account\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\account\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\account\\_changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\account\\_changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\project\\_adddocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\project\\_adddocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\project\\_addproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\project\\_addproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\project\\_showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\project\\_showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\user\\_showmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\user\\_showmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\provider\\adminprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\provider\\adminprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\user\\calender.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\user\\calender.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.account.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.account.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\appcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\appcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\taskmanagementsystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\taskmanagementsystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\hiteshtaskmessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\hiteshtaskmessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\js\\custom\\taskmanagementsystem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\iprovider\\iadminprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\iprovider\\iadminprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\task\\_addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\task\\_addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\hiteshtaskmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\hiteshtaskmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\task\\_showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\task\\_showuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\user\\task.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\user\\task.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\serviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\serviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\account\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\account\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\serviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\serviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\hiteshtaskdocumentsavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\hiteshtaskdocumentsavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\hiteshtaskdocumentsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\hiteshtaskdocumentsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\hiteshtaskassigntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\hiteshtaskassigntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\viewcomponents\\menuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\viewcomponents\\menuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\commonentities\\datatablepageresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\commonentities\\datatablepageresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\hiteshtaskproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\hiteshtaskproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\hiteshtaskprojectaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\hiteshtaskprojectaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\dropdownmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\dropdownmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\hiteshtaskusermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\hiteshtaskusermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\captcha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\captcha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\sessionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\sessionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\commonentities\\sessionprovidermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\commonentities\\sessionprovidermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.provider\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16D3317-40D5-411D-BB30-263EA0427D51}|TaskManagementSystem.Provider\\TaskManagementSystem.Provider.csproj|solutionrelative:taskmanagementsystem.provider\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.repository\\models\\hiteshtaskrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A40A0BF-E55A-4D2D-8E1C-D4C4111A7999}|TaskManagementSystem.Repository\\TaskManagementSystem.Repository.csproj|solutionrelative:taskmanagementsystem.repository\\models\\hiteshtaskrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\businessentities\\hiteshtaskrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\businessentities\\hiteshtaskrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\wwwroot\\dist\\css\\style.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\wwwroot\\dist\\css\\style.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\commonentities\\datatablepagerequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\commonentities\\datatablepagerequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\commonentities\\zipdownloadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\commonentities\\zipdownloadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\commonentities\\authresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\commonentities\\authresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\passwordhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\passwordhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\smssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\smssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.common\\utility\\aes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7307A2F7-4B73-432F-996E-947825EB02F4}|TaskManagementSystem.Common\\TaskManagementSystem.Common.csproj|solutionrelative:taskmanagementsystem.common\\utility\\aes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|c:\\hitesh\\task_management\\taskmanagementsystem.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4223C45C-9057-444D-95BF-1A0389ED9884}|TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj|solutionrelative:taskmanagementsystem.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1123221265:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommonProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\CommonProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\Provider\\CommonProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\CommonProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\Provider\\CommonProvider.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAqwKcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:56:51.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:50:05.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\TaskProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\Provider\\TaskProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\TaskProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\Provider\\TaskProvider.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAqwKUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:05:50.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskManagementSystem.Task.js",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Task.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Task.js",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Task.js",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Task.js",
+              "ViewState": "AgIAABMBAAAAAAAAAAAwwC0BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-04T08:53:51.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SHowChart.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Dashboard\\SHowChart.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Dashboard\\SHowChart.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Dashboard\\SHowChart.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Dashboard\\SHowChart.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwFIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:15:05.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskManagementSystem.Chart.js",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Chart.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Chart.js",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Chart.js",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Chart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-18T09:13:39.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\UserProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\Provider\\UserProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\UserProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\Provider\\UserProvider.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAqwHABAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:30:28.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwv0YAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:25:48.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskManagementSystem.User.js",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.User.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.User.js",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.User.js",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.User.js",
+              "ViewState": "AgIAAFMBAAAAAAAAAAAwwG0BAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-08T04:27:51.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T12:33:57.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICommonProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\ICommonProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\IProvider\\ICommonProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\ICommonProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\IProvider\\ICommonProvider.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:56:15.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProjectProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IProjectProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\IProvider\\IProjectProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IProjectProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\IProvider\\IProjectProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:55:13.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITaskProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\ITaskProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\IProvider\\ITaskProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\ITaskProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\IProvider\\ITaskProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:04:54.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAF8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:05:57.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Enumeration.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\Enumeration.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\Enumeration.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\Enumeration.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\Enumeration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:50:00.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\AccountProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\Provider\\AccountProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\AccountProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\Provider\\AccountProvider.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:46:30.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAqwIUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:01:01.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProjectProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\ProjectProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\Provider\\ProjectProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\ProjectProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\Provider\\ProjectProvider.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAiwPgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:55:36.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:00:13.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISessionManager.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\ISessionManager.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\ISessionManager.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\ISessionManager.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\ISessionManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:50:06.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskManagementSystem.Admin.js",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Admin.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Admin.js",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Admin.js",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Admin.js",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-03T04:29:17.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaskManagementSystem.Project.js",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Project.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Project.js",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Project.js",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Project.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-04T06:52:52.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_FooterScriptPartial.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_FooterScriptPartial.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Shared\\_FooterScriptPartial.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_FooterScriptPartial.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Shared\\_FooterScriptPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:03:24.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TaskViewModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Models\\TaskViewModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Models\\TaskViewModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Models\\TaskViewModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Models\\TaskViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T09:51:23.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IUserProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\IProvider\\IUserProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IUserProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\IProvider\\IUserProvider.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:30:02.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HiteshTaskProjectModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:07:45.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HiteshTaskProjectAccessModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectAccessModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectAccessModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectAccessModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskProjectAccessModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:08:53.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HiteshTaskAssignTaskModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskAssignTaskModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskAssignTaskModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskAssignTaskModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskAssignTaskModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:06:36.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T04:36:20.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HiteshTaskUserMasterModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskUserMasterModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskUserMasterModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskUserMasterModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskUserMasterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:11:23.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T12:00:53.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:53:28.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:50:39.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\Components\\HeaderView\\Default.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Shared\\Components\\HeaderView\\Default.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\Components\\HeaderView\\Default.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Shared\\Components\\HeaderView\\Default.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAALwAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:57:45.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\appsettings.json",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\appsettings.json",
+              "RelativeToolTip": "TaskManagementSystem.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T07:31:15.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Program.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Program.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:33:31.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_HeaderScriptPartial.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_HeaderScriptPartial.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Shared\\_HeaderScriptPartial.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_HeaderScriptPartial.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Shared\\_HeaderScriptPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:03:16.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T12:34:06.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:35:59.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_GetTaskByDate.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\_GetTaskByDate.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\User\\_GetTaskByDate.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\_GetTaskByDate.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\User\\_GetTaskByDate.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T06:40:18.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\EmailSender.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\EmailSender.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\EmailSender.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:56.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IAccountProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IAccountProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\IProvider\\IAccountProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IAccountProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\IProvider\\IAccountProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:45:53.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_DowDocument.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_DowDocument.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Project\\_DowDocument.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_DowDocument.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Project\\_DowDocument.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T13:36:27.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_AddDocument.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_AddDocument.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Project\\_AddDocument.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_AddDocument.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Project\\_AddDocument.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:21:06.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_UploadExcel.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Admin\\_UploadExcel.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Admin\\_UploadExcel.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Admin\\_UploadExcel.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Admin\\_UploadExcel.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAMIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T05:27:43.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_AddProject.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_AddProject.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Project\\_AddProject.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_AddProject.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Project\\_AddProject.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T07:23:06.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_AddEmployee.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Admin\\_AddEmployee.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Admin\\_AddEmployee.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Admin\\_AddEmployee.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Admin\\_AddEmployee.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T06:25:00.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\_ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Account\\_ChangePassword.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\_ChangePassword.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Account\\_ChangePassword.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T04:19:28.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ShowUser.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_ShowUser.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Project\\_ShowUser.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\_ShowUser.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Project\\_ShowUser.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T06:22:01.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_profile.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\_profile.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Account\\_profile.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\_profile.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Account\\_profile.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T06:59:58.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_ShowMessage.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\_ShowMessage.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\User\\_ShowMessage.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\_ShowMessage.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\User\\_ShowMessage.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T05:17:26.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T08:54:26.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAewI0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:47:54.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AdminProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\AdminProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\Provider\\AdminProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Provider\\AdminProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\Provider\\AdminProvider.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAASwFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:51:13.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:47:55.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Calender.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\Calender.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\User\\Calender.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\Calender.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\User\\Calender.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T13:28:23.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "TaskManagementSystem.Account.js",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Account.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Account.js",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Account.js",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.Account.js",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwFwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-02T11:11:53.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AppCommon.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\AppCommon.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\AppCommon.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\AppCommon.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\AppCommon.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAQwB4BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:41.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "TaskManagementSystem.Web.csproj",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj",
+              "RelativeToolTip": "TaskManagementSystem.Web\\TaskManagementSystem.Web.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T09:51:18.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\SessionManager.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\SessionManager.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\SessionManager.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:50:29.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Task\\Index.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Task\\Index.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Task\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T08:51:56.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HIteshTaskMessageModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HIteshTaskMessageModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\HIteshTaskMessageModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HIteshTaskMessageModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\HIteshTaskMessageModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:56:36.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TaskManagementSystem.js",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.js",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.js",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.js",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\js\\Custom\\TaskManagementSystem.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-02T11:11:27.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IAdminProvider.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IAdminProvider.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\IProvider\\IAdminProvider.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\IProvider\\IAdminProvider.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\IProvider\\IAdminProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:50:57.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "_AddTask.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Task\\_AddTask.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Task\\_AddTask.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Task\\_AddTask.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Task\\_AddTask.cshtml",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAALIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T13:51:23.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Project\\Index.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Project\\Index.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Project\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T13:01:54.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "HiteshTaskMessage.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskMessage.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\HiteshTaskMessage.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskMessage.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\HiteshTaskMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:56:47.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "HeaderViewComponent.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\ViewComponents\\HeaderViewComponent.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\ViewComponents\\HeaderViewComponent.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\ViewComponents\\HeaderViewComponent.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\ViewComponents\\HeaderViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:55:52.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_ShowUser.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Task\\_ShowUser.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Task\\_ShowUser.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Task\\_ShowUser.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Task\\_ShowUser.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAA2AQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T08:04:38.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "TestDbContext.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\TestDbContext.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\TestDbContext.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\TestDbContext.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\TestDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:01:08.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Task.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\Task.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\User\\Task.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\Task.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\User\\Task.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T05:04:21.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T04:26:13.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:48:19.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ServiceConfiguration.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\ServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\ServiceConfiguration.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\ServiceConfiguration.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\ServiceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:48:43.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Reset.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\Reset.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Account\\Reset.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\Reset.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Account\\Reset.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAwwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T09:19:50.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\ResponseModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\ResponseModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:52:50.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ServiceConfiguration.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\ServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\ServiceConfiguration.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\ServiceConfiguration.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\ServiceConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:33:10.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "TaskManagementSystem.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T09:00:37.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "HiteshTaskDocumentSaveModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskDocumentSaveModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskDocumentSaveModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskDocumentSaveModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskDocumentSaveModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:56:12.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "HiteshTaskDocumentSave.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskDocumentSave.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\HiteshTaskDocumentSave.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskDocumentSave.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\HiteshTaskDocumentSave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:56:15.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "HiteshTaskAssignTask.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskAssignTask.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\HiteshTaskAssignTask.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskAssignTask.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\HiteshTaskAssignTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:06:39.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "MenuViewComponent.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\ViewComponents\\MenuViewComponent.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\ViewComponents\\MenuViewComponent.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\ViewComponents\\MenuViewComponent.cs",
+              "RelativeToolTip": "TaskManagementSystem.Web\\ViewComponents\\MenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:48:47.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "DatatablePageResponseModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\DatatablePageResponseModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\CommonEntities\\DatatablePageResponseModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\DatatablePageResponseModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\CommonEntities\\DatatablePageResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:25.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "HiteshTaskProject.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskProject.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\HiteshTaskProject.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskProject.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\HiteshTaskProject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:07:47.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "HiteshTaskProjectAccess.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskProjectAccess.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\HiteshTaskProjectAccess.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskProjectAccess.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\HiteshTaskProjectAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:08:55.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "DropDownModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\DropDownModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\DropDownModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\DropDownModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\DropDownModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:46:21.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "HiteshTaskUserMaster.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskUserMaster.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\HiteshTaskUserMaster.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskUserMaster.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\HiteshTaskUserMaster.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:11:24.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "SessionModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\SessionModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\SessionModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\SessionModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\SessionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:50:35.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Captcha.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\Captcha.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\Captcha.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\Captcha.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\Captcha.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAwwM4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:52.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "SessionProviderModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\SessionProviderModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\CommonEntities\\SessionProviderModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\SessionProviderModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\CommonEntities\\SessionProviderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:28.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Provider\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Provider\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "TaskManagementSystem.Provider\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:46:23.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "HiteshTaskRoleModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskRoleModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskRoleModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskRoleModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\BusinessEntities\\HiteshTaskRoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:10:34.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "HiteshTaskRole.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskRole.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Repository\\Models\\HiteshTaskRole.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Repository\\Models\\HiteshTaskRole.cs",
+              "RelativeToolTip": "TaskManagementSystem.Repository\\Models\\HiteshTaskRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:10:35.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "style.min.css",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\dist\\css\\style.min.css",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\wwwroot\\dist\\css\\style.min.css",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\wwwroot\\dist\\css\\style.min.css",
+              "RelativeToolTip": "TaskManagementSystem.Web\\wwwroot\\dist\\css\\style.min.css",
+              "ViewState": "AgIAACdvAAAAAAAAAAAEwEFvAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-02T09:59:43.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "DatatablePageRequestModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\DatatablePageRequestModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\CommonEntities\\DatatablePageRequestModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\DatatablePageRequestModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\CommonEntities\\DatatablePageRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:21.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "AuthResultModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\AuthResultModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\CommonEntities\\AuthResultModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\AuthResultModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\CommonEntities\\AuthResultModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:13.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ZipDownloadModel.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\ZipDownloadModel.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\CommonEntities\\ZipDownloadModel.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\CommonEntities\\ZipDownloadModel.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\CommonEntities\\ZipDownloadModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:32.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "PasswordHash.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\PasswordHash.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\PasswordHash.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\PasswordHash.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\PasswordHash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:50:22.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "SMSSender.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\SMSSender.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\SMSSender.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\SMSSender.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\SMSSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:50:40.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Class1.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Class1.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:50:45.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "AES.cs",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\AES.cs",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Common\\Utility\\AES.cs",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Common\\Utility\\AES.cs",
+              "RelativeToolTip": "TaskManagementSystem.Common\\Utility\\AES.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:49:37.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TaskManagementSystem.Web\\appsettings.Development.json",
+              "ToolTip": "C:\\Hitesh\\Task_Management\\TaskManagementSystem.Web\\appsettings.Development.json",
+              "RelativeToolTip": "TaskManagementSystem.Web\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T07:45:12.163Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

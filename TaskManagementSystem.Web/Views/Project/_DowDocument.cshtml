@@ -1,0 +1,142 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+    Layout = "_LoginLayout";
+}
+
+
+
+
+<div class="container">
+
+    <div class="modal-header">
+        <h5 class="modal-title"> Show Documents</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <form id="Document" enctype="multipart/form-data">
+        <input type="hidden" class="form-control" asp-for="@Model.HiteshTaskDocumentSaveModel.ProjectId" id="Pid" />
+    
+        <!-- Preview Images -->
+        <table class="table mt-3" id="fileTable">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="selectAll" onclick="toggleSelectAll(this)" />Select All</th>
+                    <th>Id</th>
+                    <th>File Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach(var item in Model.hiteshTaskDocumentSaveModelList){
+                        <tr>
+                            <td><input type="checkbox" class="docCheckbox" id="checkboxid" onchange="toggleDownloadButton()" value="@item.Id" /></td>
+                           <td>@item.Id</td>
+                           <td>@item.DocumentName</td>
+                            <td> <button type="button" onclick="TaskManagementSystem.Project.DownloadData(@item.Id)" class="btn btn-primary">Download</button>
+                                <button type="button" onclick="TaskManagementSystem.Project.DeleteDocData(@item.Id)" class="btn btn-danger">Delete</button>
+                            </td>
+                           
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+
+        <!-- Submit Button -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary w-20" id="btndwn" onclick="downloadAllDocuments()" disabled>Download All Document</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </form>
+
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+
+
+
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+<script type="text/javascript">
+
+   
+       function toggleSelectAll(source) {
+
+        var downloadbtn = document.getElementById("btndwn");
+        const checkboxes = document.querySelectorAll('.docCheckbox');
+        checkboxes.forEach(cb => cb.checked = source.checked);
+
+      let anyChecked = false;
+        for (var i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].checked) {
+                anyChecked = true;
+                break;
+            }
+        }
+
+        downloadbtn.disabled = !anyChecked;
+    }
+
+        function toggleDownloadButton() {
+        var checkboxes = document.getElementsByClassName("docCheckbox");
+        var downloadbtn = document.getElementById("btndwn");
+
+        let anyChecked = false;
+        for (var i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].checked) {
+                anyChecked = true;
+                break;
+            }
+        }
+
+        downloadbtn.disabled = !anyChecked;
+    }
+
+
+        function downloadAllDocuments() {
+        var id = $("#Pid").val();
+        var selectedIds = [];
+
+        document.querySelectorAll('.docCheckbox:checked').forEach(cb => {
+            selectedIds.push(cb.value);
+        });
+
+        debugger;
+
+        // Create a form dynamically and submit it (use POST)
+        var form = document.createElement("form");
+        form.method = "POST";
+       form.action = "/Project/DownloadAllDocuments";
+
+        var pidInput = document.createElement("input");
+        pidInput.type = "hidden";
+        pidInput.name = "Pid";
+        pidInput.value = id;
+        form.appendChild(pidInput);
+
+        selectedIds.forEach(id => {
+            var hiddenInput = document.createElement("input");
+            hiddenInput.type = "hidden";
+            hiddenInput.name = "documentIds";
+            hiddenInput.value = id;
+            form.appendChild(hiddenInput);
+        });
+
+        document.body.appendChild(form);
+        form.submit();
+    }
+
+
+
+</script>
+
+

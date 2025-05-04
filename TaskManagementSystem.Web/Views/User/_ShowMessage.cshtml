@@ -1,0 +1,172 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+@{
+    Layout = "_LoginLayout";
+}
+
+<style>
+   
+
+    .chat-wrapper {
+        background: #ece5dd;
+        font-family: Arial, sans-serif;
+        display: flex;
+        
+        min-height: 70vh;
+        padding: 20px; 
+    }
+
+    .chat-container {
+        width: 140%;
+        max-width: 800px;
+        height: 600px;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+
+        flex-direction: column;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+
+    .chat-header {
+        background-color: #075e54;
+        color: white;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+        .chat-header img {
+            border-radius: 50%;
+            object-fit: cover;
+            width: 45px;
+            height: 45px;
+            border: 2px solid #fff;
+        }
+
+    .chat-messages {
+        flex: 1;
+        padding: 10px;
+        overflow-y: auto;
+        background-color: #e5ddd5;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .message {
+        max-width: 70%;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+
+    .sent {
+        align-self: flex-end;
+        background-color: #dcf8c6;
+        border-bottom-right-radius: 0;
+    }
+
+    .received {
+        align-self: flex-start;
+        background-color: white;
+        border-bottom-left-radius: 0;
+    }
+
+    .chat-input {
+        display: flex;
+        border-top: 1px solid #ccc;
+        background-color: #f0f0f0;
+        padding: 10px;
+    }
+
+        .chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .chat-input button {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            margin-left: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+</style>
+
+<div class="modal-header">
+    <h5 class="modal-title">Chat</h5>
+</div>
+
+
+
+
+<div class="chat-wrapper">
+    <form id="MsgData">
+        <input type="hidden" asp-for="HiteshTaskUserMasterModel.Id" />
+        <input type="hidden" asp-for="HIteshTaskMessageModel.TaskId" />
+        <input type="hidden" asp-for="HIteshTaskMessageModel.SendId" />
+        <input type="hidden" asp-for="HIteshTaskMessageModel.ReceiveId" />
+    <div class="chat-container">
+        <div class="chat-header">
+            @{
+                if(Model.HiteshTaskUserMasterModel.ImagesUrl !=null){
+                    <img src="~/Images/@Model.HiteshTaskUserMasterModel.ImagesUrl" alt="Profile Picture" />
+                }
+                else{
+                    <div class="placeholder-image rounded-circle d-flex align-items-center justify-content-center text-light fw-bold"
+                         style="width: 45px; height: 45px; border: 2px solid #007bff; font-size: 26px;">
+                        <span>@(Model.HiteshTaskUserMasterModel.FullName?.Substring(0, 1).ToUpper())</span>
+                    </div>
+
+                    
+                }
+            }
+           
+            @Model.HiteshTaskUserMasterModel.FullName
+        </div>
+
+        <div class="chat-messages">
+                <div class="chat-messages">
+                    @foreach (var msg in Model.HIteshTaskMessageModel.AllMessage)
+                    {
+                        var isSender = msg.SendId == Model.HIteshTaskMessageModel.SendId;
+                        <div class="message @(isSender ? "sent" : "received")">
+                            @msg.Message
+                        </div>
+                    }
+                </div>
+        </div>
+
+         <div class="chat-input">
+
+                <input type="text" placeholder=" Enter Mesasage..." asp-for="HIteshTaskMessageModel.Message"  autocomplete="off" />
+             
+                <button type="button" onclick="TaskManagementSystem.User.SendMessage()">Send</button>
+        </div> 
+    </div>
+    </form>
+    
+</div>
+<div class="modal-footer mt-4">
+
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+</div>
+
+
+@section Scripts {
+  
+}

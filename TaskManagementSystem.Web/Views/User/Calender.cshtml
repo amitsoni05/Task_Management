@@ -1,0 +1,42 @@
+﻿@model TaskManagementSystem.Web.Models.TaskViewModel
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="">
+					<div class="row">
+						
+							<div class="card-body b-l calender-sidebar">
+								<div id="calendarId" class="fc fc-unthemed fc-ltr">
+									
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- BEGIN MODAL -->
+
+</div>
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+<script type="text/javascript">
+
+		$(document).ready(function () {
+			debugger;
+		
+		TaskManagementSystem.User.ToDoInit({
+			CalenderId: "calendarId",
+				
+			});
+
+
+		});
+	
+
+</script>
+
